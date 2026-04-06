@@ -82,10 +82,14 @@ project:
   toc:
     - file: 01.index.md
     - file: 02.introductions.md
-    # - title: Diffractive Imaging
-    #   children:
-    #     - file: 02.stem-measurements.md
-    #     - file: 03.phase-problem.md
+    - title: Electron Microscopy
+      children:
+        - file: 03.transmission-vs-reflection.md
+        - file: 04.reciprocity-principle.md
+    - title: Diffractive Imaging
+      children:
+        - file: 05.measurement-modalities.md
+        - file: 06.phase-imaging.md
     # - title: Direct Ptychography
     #   children:
     #     - file: 04.weak-phase-object-approximation.md
