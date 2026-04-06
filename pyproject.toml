@@ -1,0 +1,22 @@
+[project]
+name = "presentation-20260408-sem-phase-retrieval"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "abtem>=1.0.9",
+    "cmasher>=1.9.2",
+    "colorspacious>=1.1.2",
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.6",
+    "jupyterlab-myst>=2.6.0",
+    "matplotlib>=3.10.8",
+    "numba>=0.65.0",
+    "py4dstem>=0.14.18",
+    "temgymlite",
+]
+
+[tool.uv.sources]
+temgymlite = { url = "https://raw.githubusercontent.com/gvarnavi/TemGymLite/main/dist/temgymlite-0.6.0.0-py3-none-any.whl" }
