@@ -62,22 +62,18 @@ project:
   abbreviations:
     TEM: transmission electron microscopy
     HRTEM: high resolution transmission electron microscopy
+    SEM: scanning electron microscopy
     STEM: scanning transmission electron microscopy
+    S/TEM: scanning transmission electron microscopy
     4D-STEM: four dimensional scanning transmission electron microscopy
     4DSTEM: four dimensional scanning transmission electron microscopy
     BF: bright field
     DF: dark field
     HAADF: high angle annular dark field
-    FFT: fast Fourier transform
     PCI: phase contrast imaging
     tcBF: tilt corrected bright field STEM
     SSB: single side band
-    OBF: optimum bright field STEM
-    MF: matched filter
-    WDD: Wigner distribution deconvolution
     WPOA: weak phase object approximation
-    CTF: contrast transfer function
-    iCOM: integrated center of mass imaging
     SSNR: spectral signal to noise ratio
   toc:
     - file: 01.index.md
@@ -89,7 +85,8 @@ project:
     - title: Diffractive Imaging
       children:
         - file: 05.measurement-modalities.md
-    #     - file: 06.phase-imaging.md
+        - file: 06.phase-problem.md
+        - file: 07.iterative-ptychography.md
     # - title: Direct Ptychography
     #   children:
     #     - file: 04.weak-phase-object-approximation.md
