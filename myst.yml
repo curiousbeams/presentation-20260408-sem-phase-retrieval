@@ -87,40 +87,30 @@ project:
         - file: 05.measurement-modalities.md
         - file: 06.phase-problem.md
         - file: 07.iterative-ptychography.md
-    # - title: Direct Ptychography
+    # - title: Non-Iterative Ptychography
     #   children:
-    #     - file: 04.weak-phase-object-approximation.md
-    #     - file: 05.single-sideband-reconstruction.md
-    #     - file: 06.bright-field-loop.md
-    # - title: Parallax Imaging
-    #   children:
-    #     - file: 07.parallax-imaging.md
-    #     - file: 08.scan-upsampling.md
-    #     - file: 09.experimental-upsampling.md
-    # - title: Unified Framework & Streaming
-    #   children:
-    #     - file: 10.unified-framework.md
-    #     - file: 11.streaming-parallax.md
-    #     - file: 12.beyond-wpoa.md
+    #     - file: 08.weak-phase-approximation.md
+    #     - file: 09.single-sideband-reconstruction.md
+    #     - file: 10.bright-field-loop.md
+    #     - file: 11.parallax-imaging.md
+    #     - file: 12.streaming-parallax.md
     # - title: Outlook
     #   children:
     #     - file: 13.higher-order-ms.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
-site:
-  template: book-theme
 # site:
 #   template: https://github.com/curvenote-themes/spa-preview/archive/refs/heads/main.zip
 #   options:
 #     site_id: curious-beams
-# site:
-#   template: book-theme
+site:
+  template: book-theme
 #   options:
 #     theme: 'dark'
-#     hide_theme_toggle: true
-#     hide_header_block: true
-#     hide_connection_tray: true
+#     # hide_theme_toggle: true
+#     # hide_header_block: true
+#     # hide_connection_tray: true
 #     hide_outline: true
 #     hide_search: true
 #     favicon: ./figures/favicon.ico
