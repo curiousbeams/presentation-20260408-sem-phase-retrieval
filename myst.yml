@@ -21,7 +21,7 @@ project:
   open_access: true
   license: CC-BY-4.0
   date: 2026-04-08
-  # thumbnail: ./figures/streaming_parallax_placeholder.png
+  thumbnail: ./figures/gamma-function-placeholder.png
   requirements:
     - 'Dockerfile'
     - requirements.txt
@@ -90,13 +90,12 @@ project:
     - title: Non-Iterative Ptychography
       children:
         - file: 08.weak-phase-approximation.md
-    #     - file: 09.single-sideband-reconstruction.md
-    #     - file: 10.bright-field-loop.md
-    #     - file: 11.parallax-imaging.md
-    #     - file: 12.streaming-parallax.md
-    # - title: Outlook
+        # - file: 09.single-sideband-reconstruction.md
+        # - file: 10.bright-field-loop.md
+        # - file: 11.parallax-imaging.md
+        # - file: 12.streaming-parallax.md
+    # - title: SEM Phase Retrieval
     #   children:
-    #     - file: 13.higher-order-ms.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
@@ -106,14 +105,11 @@ project:
 #     site_id: curious-beams
 site:
   template: book-theme
-#   options:
-#     theme: 'dark'
-#     # hide_theme_toggle: true
-#     # hide_header_block: true
-#     # hide_connection_tray: true
-#     hide_outline: true
-#     hide_search: true
-#     favicon: ./figures/favicon.ico
-#     logo: ./figures/logo.png
-#     logo_dark: ./figures/logo.png
-#     logo_text: 'cbl.curve.space/presentations'
+  options:
+    hide_authors: true
+    hide_outline: true
+    hide_search: true
+    favicon: ./figures/favicon.ico
+    logo: ./figures/logo.png
+    logo_dark: ./figures/logo.png
+    logo_text: 'cbl.curve.space/interactive-content'
