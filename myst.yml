@@ -90,10 +90,10 @@ project:
     - title: Non-Iterative Ptychography
       children:
         - file: 08.weak-phase-approximation.md
-        # - file: 09.single-sideband-reconstruction.md
-        # - file: 10.bright-field-loop.md
-        # - file: 11.parallax-imaging.md
-        # - file: 12.streaming-parallax.md
+        - file: 09.single-sideband-reconstruction.md
+        - file: 10.bright-field-loop.md
+        - file: 11.parallax-imaging.md
+        - file: 12.streaming-parallax.md
     # - title: SEM Phase Retrieval
     #   children:
     - title: Notebooks
