@@ -94,11 +94,12 @@ project:
         - file: 10.bright-field-loop.md
         - file: 11.parallax-imaging.md
         - file: 12.streaming-parallax.md
+        - file: 13.experimental-upsampling.md
     - title: SEM Phase Retrieval
       children:
-        - file: 13.transmission-sem-ptychography.md
-        - file: 14.multislice-approximations.md
-        - file: 15.reflection-sem-ptychography.md
+        - file: 14.transmission-sem-ptychography.md
+        - file: 15.multislice-approximations.md
+        - file: 16.reflection-sem-ptychography.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
