@@ -87,9 +87,9 @@ project:
         - file: 05.measurement-modalities.md
         - file: 06.phase-problem.md
         - file: 07.iterative-ptychography.md
-    # - title: Non-Iterative Ptychography
-    #   children:
-    #     - file: 08.weak-phase-approximation.md
+    - title: Non-Iterative Ptychography
+      children:
+        - file: 08.weak-phase-approximation.md
     #     - file: 09.single-sideband-reconstruction.md
     #     - file: 10.bright-field-loop.md
     #     - file: 11.parallax-imaging.md
