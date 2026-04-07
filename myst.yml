@@ -94,8 +94,11 @@ project:
         - file: 10.bright-field-loop.md
         - file: 11.parallax-imaging.md
         - file: 12.streaming-parallax.md
-    # - title: SEM Phase Retrieval
-    #   children:
+    - title: SEM Phase Retrieval
+      children:
+        - file: 13.transmission-sem-ptychography.md
+        - file: 14.multislice-approximations.md
+        - file: 15.reflection-sem-ptychography.md
     - title: Notebooks
       children:
         - pattern: notebooks/*.ipynb
@@ -109,7 +112,7 @@ site:
     hide_authors: true
     hide_outline: true
     hide_search: true
-    favicon: ./figures/favicon.ico
-    logo: ./figures/logo.png
-    logo_dark: ./figures/logo.png
+    favicon: ./figures/cbl-logo-simple.ico
+    logo: ./figures/cbl-logo-simple.svg
+    logo_dark: ./figures/cbl-logo-simple.svg
     logo_text: 'cbl.curve.space/interactive-content'
